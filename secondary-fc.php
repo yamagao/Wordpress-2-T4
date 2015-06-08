@@ -146,8 +146,7 @@
   <div class="wp-images-left lower-content large-12 medium-12 small-12 columns">
    <?php 
   $html="";
-  $url="http://blogs.ifas.ufl.edu/ifascomm/category/uf-ifas-communications/webteam/feedname/";
-   $url2="http://blogs.ifas.ufl.edu/ifascomm/category/uf-ifas-communications/webteam/";
+  $url="http://blogs.ifas.ufl.edu/global/category/work-and-life/feed/feedname";
   include ('Wptoweb.php');
   
   
@@ -203,8 +202,7 @@
   
    <?php 
   $html="";
-  $url="http://blogs.ifas.ufl.edu/ifascomm/category/uf-ifas-communications/webteam/feedname/";
-   $url2="http://blogs.ifas.ufl.edu/ifascomm/category/uf-ifas-communications/webteam/";
+  $url="http://blogs.ifas.ufl.edu/global/category/work-and-life/feed/feedname";
   include ('Wptoweb-title-photo.php');
   
   
