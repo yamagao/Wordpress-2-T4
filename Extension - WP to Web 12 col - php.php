@@ -4,7 +4,7 @@
   <div class="wp-images-left lower-content large-12 medium-12 small-12 columns">
    <?php 
   $html="";
-  $url_gen = "http://blogs.ifas.ufl.edu/global/category/work-and-life/";
+  $url_gen = "<t4 type="content" name="Blog Category/Tag URL" output="normal" modifiers=""  />";
   $url = $url_gen . "feed/feedname";
   $xml = simplexml_load_file($url);  
   
@@ -24,7 +24,7 @@
         $link=$xml->channel->item[$i]->link;
       
         if($image == ""){
-            $image = "img/wp-post-placeholder.jpg";
+            $image = "<t4 type="content" name="Placeholder Photo" output="normal" modifiers=""  />";
         }	
       
         echo "<div class='row'>
